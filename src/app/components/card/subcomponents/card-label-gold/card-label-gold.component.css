@@ -1,0 +1,26 @@
+.card-label-gold-container{
+	position: absolute;
+	top: 0px;
+	left: 0;
+
+	width: 100%;
+	height: 70px;
+}
+
+
+.card-label-gold-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom, #d4af37, #dbaf2a, #a07812);
+	background: linear-gradient(to top, rgba(255,255,255,0.3));
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+	color: black;
+
+	font-family: "Trajan Pro", serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+

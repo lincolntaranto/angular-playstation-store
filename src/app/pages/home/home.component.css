@@ -1,0 +1,31 @@
+.home-container{
+	width: 90%;
+	margin: auto;
+  padding: 50px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+
+.ButtonMore {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+	margin: 0 auto;
+	border-radius: 20%;
+
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.25;
+	letter-spacing: .4px;
+	background-color: transparent;
+}
+
+.ButtonMore:hover{
+	font-weight: 1000;
+	border: 2px solid rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.07);
+	border-radius: 10%;
+}
